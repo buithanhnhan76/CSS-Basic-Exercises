@@ -1,0 +1,11 @@
+table,td,th{
+    border: 1px solid #c4dcf3;
+    border-collapse: collapse;
+    color: rgb(223, 207, 207);
+}
+thead{
+    background-color: #427fef;
+}
+tr:nth-child(odd){
+    background-color: #eef7ff;
+}
