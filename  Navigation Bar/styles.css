@@ -1,0 +1,25 @@
+body{
+    color: white;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.container{
+    background-color: black;
+}
+
+@media  screen and (min-width: 768px ){
+    ul{
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    li{
+        margin: 0 10px;
+    }
+}
